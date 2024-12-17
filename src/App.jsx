@@ -1,10 +1,12 @@
-import SwApi from "../services/SwApi";
+import StarshipCard from "./components/StarshipCard";
 import "./App.css";
 
 function App() {
+  const starshipName = "Millennium Falcon"; // Example starship name
+
   return (
     <>
-      <SwApi />
+      <StarshipCard name={starshipName} />
     </>
   );
 }
